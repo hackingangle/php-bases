@@ -1,4 +1,4 @@
-php-bases
+php基础
 =========
 
-基础语法demo集合
+基础语法的demo
