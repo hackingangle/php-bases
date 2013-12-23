@@ -5,11 +5,11 @@ php基础
 
 
 # 结构说明
-+db
+1. db
 数据库操作
 
-+email
+2. email
 邮件操作
 
-+upload
+3. upload
 文件上传操作
