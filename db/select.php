@@ -1,6 +1,6 @@
 <form action="" method="post">
 <?php
-require_once('dbconfig.php');
+require_once('config.php');
 if(isset($_POST["submit"])){
 	$ids = $_POST["ids"];
 	print_r($ids);

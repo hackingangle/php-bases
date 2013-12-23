@@ -1,5 +1,5 @@
 <?php
-require_once('dbconfig.php');
+require_once('config.php');
 $dbc = mysqli_connect(DBIP, USER, PWD, DBNAME) or die("Error on connected mysql.");
 // $sql = "select * from users u where u.username = 'test'";
 // $result = mysqli_query($dbc, $sql) or die("Error on query executed.");
@@ -9,7 +9,7 @@ $password = $_POST['password'];
 // $res = mysqli_fetch_all($result);
 // print_r($res);
 if(isset($username) && isset($password)){
-	$sql = "insert into users2(username, password) values".
+	$sql = "insert into users(username, password) values".
 		"('$username','$password')";
 	$result = mysqli_query($dbc, $sql) or die("insert error");
 }
